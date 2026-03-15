@@ -1,6 +1,16 @@
 {
-  "dependencies": {
-    "@supabase/supabase-js": "^2.99.1"
+  "name": "siteweb",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
-  "type": "module"
+  "dependencies": {
+    "@supabase/supabase-js": "^2.99.1",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  }
 }
